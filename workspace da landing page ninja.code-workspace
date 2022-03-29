@@ -7,5 +7,7 @@
 			"path": "..\\Curso_Full-Stack\\2-Projeto_CSS"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Landing Page responsive"
+	}
 }

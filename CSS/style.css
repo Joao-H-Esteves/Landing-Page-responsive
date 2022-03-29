@@ -17,6 +17,7 @@
     padding: 0;
     text-align: center;
     scroll-behavior: smooth; 
+    box-sizing: border-box;
 }
 html{
     /* padronizar a responsividade */
@@ -69,7 +70,7 @@ body{
         min-height: 100vh;
     }
      
-     .grid-divisorias{ /*guia ninja cup */
+     .grid-divisorias{ /*guia track day */
         display: grid;
         grid-template-columns: auto auto auto;
         width: 90vw;
@@ -82,11 +83,11 @@ body{
         align-items: center;
         flex-flow: column wrap;
         margin: 0 auto;
-
     }
+    
     .text-content {
         position: relative;
-        top: -7rem;
+        top: -8rem;
     }
     
     .text-right p , .text-left p{
@@ -98,25 +99,95 @@ body{
     .text-left p{        
         text-align: left;  
     }
+    .text-center{
+        width: 70vw;
+        text-align: center;
+    }
+    body .full-width{
+        width: 100%;
+        flex: 1 1 100%;
+    }
+    .footer{
+        margin: var(--gap);
+    }
+    .footer a{
+        text-decoration: none;
+        color: var(--kawasaki-color);
+    }
+
+/* FORMULARIO */
+    .contact-form{
+        grid-column: span 2;
+        
+    }
+    .contact-form .form-fild{
+        margin: 0 10vw 2vw 10vw;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--gap);
+    }
+    .form-group{
+        flex: 1   320px;
+        white-space : nowrap;
+    }
+    .form-group label{
+        display: block;
+        text-align: left;
+        margin-bottom: 1rem;
+    }
+    .form-group input , .form-group textarea{
+        border: none;
+        background: var(--secundary-color);
+        padding: 1rem 2rem;
+        width: 90%;
+         outline: none; 
+    }/*borda de seleção da caixa input */
+    .form-group input:focus , .form-group textarea:focus{
+        box-shadow: 0 0 10px 5px var(--kawasaki-color);
+
+    }
+    .form-group button{
+        border: 0.5rem solid var(--secundary-color);
+        background: none;
+        padding: 1.5rem 2rem;
+        text-transform:600 ;
+        color: var(--secundary-color);
+        font-size: 1.8rem;
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+    }
+    .form-group button:hover{
+        background: var(--secundary-color);
+        color: var(--primary-color);
+
+    }
 
 /* TABELAS */
 .tabela-responsiva{
     background-color: var(--kawasaki-color);
     border-radius: 50%;
     margin: -3rem 0 3rem ;
+    
 }
 table{
     display: flexbox;
     margin: 3rem 5rem 5rem 5rem;
-    width: 50vw;
-    height: 200px;
-      border-collapse: collapse; /*fazer a borda juntar */
+    width: 60vw;
+    height: 20rem;
+    border-collapse: collapse; /*fazer a borda juntar */
 }
 th{
     border: 0.4rem solid white;
 }
 td{
     border: 0.2rem solid white;
+}
+.table th{
+    color: var(--secundary-color) ;
+    background-color: var(--kawasaki-color);
+    border: 0rem;
+    
 }
 
 
@@ -167,7 +238,6 @@ td{
 
 /* FOTOE E IMAGENS */
     .box-logo-img{
-        box-sizing: border-box;
         margin-left: 1%;
     }
     .logo1{
@@ -187,6 +257,12 @@ td{
     .lateral-img{
         width: 100%;
         max-width: 60rem;        
+    }
+    .contact-image{
+        width: 80%;
+        max-width: 60rem;  
+        border-radius: 20%;
+        margin-top: 10rem;
     }
     .front-eyes{
         max-width: 40rem;
@@ -211,7 +287,6 @@ td{
     .video-container{
        position: relative;
        max-width: 50rem;
-      /* background-color: #85B442; */
        width: auto;
        height: 100vh;
    }
@@ -226,10 +301,9 @@ td{
         min-width: 3rem;
     }
     #curso .video-2 {
-        right: 0; bottom: 3rem;  
-        width: 40%;
-        min-width: 90%;
-        height: 40%;
+        right: 0; bottom: 0rem; 
+        max-width: 90%;
+        min-width: 3rem;
     }
     .video-cup{
         width: 40vw;

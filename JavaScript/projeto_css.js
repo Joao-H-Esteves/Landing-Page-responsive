@@ -7,10 +7,12 @@ imagens[0] = "imagens/moto-eyes.jpg";
 imagens[1] = "imagens/moto-eyes1.jpeg";
 imagens[2] = "imagens/moto-eyes2.jpeg";
 imagens[3] = "imagens/moto-eyes3.jpeg";
-//...erro no link da imagem 0
+imagens[4] = "imagens/moto-eyes4.jpeg";
+// imagens[5] = "imagens/piloto.png";
+
 
 function rodarImagens() {
-    //  document.getElementById('misto').src = imagens[]; //erro aqui
+    
    document.images["misto"].src = imagens[nrImagem++];
 
    if (nrImagem >= imagens.length)
