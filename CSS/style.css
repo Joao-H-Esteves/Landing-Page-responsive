@@ -118,7 +118,6 @@ body{
 /* FORMULARIO */
     .contact-form{
         grid-column: span 2;
-        
     }
     .contact-form .form-fild{
         margin: 0 10vw 2vw 10vw;
@@ -161,6 +160,10 @@ body{
         background: var(--secundary-color);
         color: var(--primary-color);
 
+    }
+    .quest-radio{
+        align-items: center;
+        margin: auto;
     }
 
 /* TABELAS */
