@@ -299,6 +299,7 @@ td{
         right: 0; top: 0;
         max-width: 90%;
         min-width: 3rem;
+        
     }
     #curso .video-2 {
         right: 0; bottom: 0rem; 
@@ -309,7 +310,7 @@ td{
         width: 40vw;
     }
     #cup .video-center{
-        max-width: 30vw;
+        width: 30vw;
         margin: 5rem 0;
     }
 

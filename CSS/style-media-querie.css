@@ -1,7 +1,62 @@
 
 /* MEDIA QUERIES */
 @media (max-width: 800px){
+
+    
     .grid-display{
         grid-template-columns: 1fr;
     }
+
+    /* track day */
+    .grid-divisorias{
+        grid-template-columns: 1fr;
+    }
+    .text-right p , .text-left p{
+        text-align: center;
+        width: auto;
+    }
+    .tabela-responsiva{
+        margin: 2rem auto;
+    }
+
+    .contact-form{
+        grid-column: span 1;
+        
+    }
+
+    /* IMAGENS */
+    #contato .all-image{
+        padding: 0;
+    }
+    .contact-image{
+        border-radius: 10%;
+    }
+
+    /* videos */
+    .video-container{
+        position: relative;
+        width: 100%; 
+        align-items: center;
+        margin: auto;
+    }
+    .absolut-mp4{
+        position: relative;
+        border-radius: 15%;
+    }
+    #curso .video-1 ,  #curso .video-2{        
+        max-width: 90%;
+        padding: 2rem;
+    }
+    
+    .video-cup{
+        width: 100vw;
+    }
+    #cup .video-center{
+       width: 60%;
+    }
+
+    p{
+        margin: auto 2rem;
+    }
+
 }
