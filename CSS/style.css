@@ -1,5 +1,5 @@
 :root {
-    /* CRIANDO VARIAVEIS GLOBAIS */
+    /*  VARIAVEIS GLOBAIS */
     --primary-color: rgba(0, 0, 0, 0.767);
 
     --secundary-color: rgb(253, 253, 253);
@@ -22,12 +22,10 @@
 html{
     /* padronizar a responsividade */
     font-size: 62.5%;
-    
 }
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
-    /* overflow-y: scroll; */
 }
 
 
@@ -42,14 +40,12 @@ body{
         background-size: cover;
         background-position: center ;
         color: var(--secundary-color);
-        
     }
     .main-fundo-branco{
         text-shadow: none;
     }
     .sessao{
         min-height: 100vh;
-        
     }
     .main-conteudo{
         max-width: 120rem;
@@ -60,7 +56,7 @@ body{
         justify-content: space-between;
         align-items: center;
     }
-   
+
     .grid-display{
         display: grid;
         grid-template-columns: 1fr 1.5fr;
@@ -88,8 +84,7 @@ body{
     .text-content {
         position: relative;
         top: -8rem;
-    }
-    
+    }    
     .text-right p , .text-left p{
         padding-top: 2.5rem;
         text-align: right;
@@ -144,7 +139,6 @@ body{
     }/*borda de seleção da caixa input */
     .form-group input:focus , .form-group textarea:focus{
         box-shadow: 0 0 10px 5px var(--kawasaki-color);
-
     }
     .form-group button{
         border: 0.5rem solid var(--secundary-color);
@@ -159,7 +153,6 @@ body{
     .form-group button:hover{
         background: var(--secundary-color);
         color: var(--primary-color);
-
     }
     .quest-radio{
         align-items: center;
@@ -171,7 +164,6 @@ body{
     background-color: var(--kawasaki-color);
     border-radius: 50%;
     margin: -3rem 0 3rem ;
-    
 }
 table{
     display: flexbox;
@@ -190,7 +182,6 @@ td{
     color: var(--secundary-color) ;
     background-color: var(--kawasaki-color);
     border: 0rem;
-    
 }
 
 

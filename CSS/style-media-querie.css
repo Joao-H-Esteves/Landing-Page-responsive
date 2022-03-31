@@ -1,8 +1,43 @@
 
 /* MEDIA QUERIES */
 @media (max-width: 800px){
+    /* MENU ASIDE */
+    .close-menu{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+    .close-menu-label::after{
+        content: '☰';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        background-color: var(--primary-color);
+        color: var(--secundary-color);
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    .menu{
+        display: none;
+        min-height: 100vh;
+        text-align: center;
+        bottom: 0;
+    }
+    .caixa-flex , .top-bar li{
+        display: block;
+    }
+    .top-bar li{
+        margin: 4rem 1rem;
+    }
 
-    
+    /* principal */
     .grid-display{
         grid-template-columns: 1fr;
     }
@@ -25,6 +60,17 @@
     }
 
     /* IMAGENS */
+    .box-logo-img{
+        margin: 0%;
+        padding: O;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .logo1, .logo2{
+        align-items: center;
+    }
     #contato .all-image{
         padding: 0;
     }
