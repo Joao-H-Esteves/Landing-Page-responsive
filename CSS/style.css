@@ -46,6 +46,7 @@ body{
     }
     .sessao{
         min-height: 100vh;
+        max-width: 99vw;
     }
     .main-conteudo{
         max-width: 120rem;
@@ -97,6 +98,9 @@ body{
     .text-center{
         width: 70vw;
         text-align: center;
+    }
+    .redutor-de-width{
+        width: 80 vw;
     }
     body .full-width{
         width: 100%;
@@ -168,7 +172,7 @@ body{
 table{
     display: flexbox;
     margin: 3rem 5rem 5rem 5rem;
-    width: 60vw;
+    max-width: 80rem;
     height: 20rem;
     border-collapse: collapse; /*fazer a borda juntar */
 }
@@ -186,6 +190,9 @@ td{
 
 
 /* BARRA DE MENU ASIDE */
+    .close-menu{
+        display: none;
+    }
     .menu{
         background-color: var(--secundary-color);
         position: fixed;
