@@ -131,4 +131,35 @@
         margin: auto ;
     }
 
+    /* TEXTOS */
+    body{
+        font-size: 1.7rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    #cup h2 , h3{
+        padding: 2rem AUTO;
+    }    
+    h3 , h4{
+        font-size: 2.5rem;
+        
+    }
+    h5{
+        font-size: 2rem;
+    }
+     h6{  /*tabela cup*/
+        font-size: 1.3rem;
+    }
+    
+    p{
+        margin-bottom: 1rem;
+        text-indent: 2rem;
+        padding: 0 var(--gap);
+        line-height: 2rem;
+        letter-spacing: 0.1rem;
+    }
 }

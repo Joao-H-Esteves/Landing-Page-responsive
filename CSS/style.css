@@ -10,7 +10,7 @@
 
     --gap: 3rem;
 
-    --espaco-do-menu: 12.6rem;
+    --espaco-do-menu: 8.6rem;
 }
 *{
     margin: 0;
@@ -84,7 +84,7 @@ body{
     
     .text-content {
         position: relative;
-        top: -8rem;
+        top: -2rem;
     }    
     .text-right p , .text-left p{
         padding-top: 2.5rem;
@@ -336,9 +336,6 @@ td{
     h3 , h4{
         font-size: 4rem;
         
-    }
-    h4{
-        font-size: 3.5rem;
     }
     h5{
         font-size: 3rem;
